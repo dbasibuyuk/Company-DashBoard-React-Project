@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  font-family: 'Roboto Condensed';
+}
+
+html
+{
+  background-color: #F6EEFF;
 }
 
 .App-logo {
@@ -36,3 +42,5 @@
     transform: rotate(360deg);
   }
 }
+
+
