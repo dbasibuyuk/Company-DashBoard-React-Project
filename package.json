@@ -37,7 +37,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "server": "json-server -p 3001 --fks _id --snapshots ./server/dbs  -d 200 --routes ./server/routes.json --read-only --watch server/generator.js"
+    "server": "json-server -p 3001 --fks _id  -d 200 --routes ./server/routes.json --read-only --watch server/generator.js"
   },
   "eslintConfig": {
     "extends": [
